@@ -13,3 +13,12 @@ tailwind.config.js -> clear, code analysis say that configuration is standard, n
 
 now let's analyse src/topology.rs
 do you see any vulnerabilities in this file? Anything suspicious at all?
+
+ ./target/release/coma --url "https://electrautopsy.blogspot.com/p/dedicace.html" texts > output.txt
+
+ ./target/release/coma --url "https://www.leboncoin.fr/" texts > output.txt
+
+
+
+link doesn't seem to be working
+ ./coma --url "https://electrautopsy.blogspot.com/p/dedicace.html" --depth 1 links > links.txt
